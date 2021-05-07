@@ -1,0 +1,8 @@
+prefix=/home/gogochiou/eudemo_ws/devel
+
+Name: main2021
+Description: Description of main2021
+Version: 0.0.0
+Cflags: -I/home/gogochiou/eudemo_ws/devel/include -I/home/gogochiou/eudemo_ws/src/main2021/include
+Libs: -L${prefix}/lib -lmain2021
+Requires: geometry_msgs roscpp rospy std_msgs message_runtime message_filters nav_msgs tf2 tf2_geometry_msgs tf2_msgs tf2_ros

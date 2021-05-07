@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gogochiou/eudemo_ws/src/mission/include/mission/mission_action.h
+string
+-
+vector
+-
+
+/home/gogochiou/eudemo_ws/src/mission/src/mission_topic/mission_action.cpp
+mission/mission_action.h
+/home/gogochiou/eudemo_ws/src/mission/src/mission_topic/mission/mission_action.h
+stdio.h
+-
+vector
+-
+
